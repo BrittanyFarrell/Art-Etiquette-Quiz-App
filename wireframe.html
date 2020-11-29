@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Quiz App</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"
+    type="text/css" />
+  <link href="quizApp.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <h1>The Art Etiquette Wireframe</h1>
+  </header>
+  <main>
+      
+    <!-- Main Page HTML -->
+    <Section>
+        <h2>A quiz on artistic techniques and practices.</h2>
+        <p>Click the button below to begin.</p>
+        <button type="button" id="start-quiz" class="btn">Start Quiz</button>
+    </Section>
+
+
+    <br>
+    <!-- Question HTML -->
+    <section>
+
+        <div class="side-by-side">
+            <p class="space-below">Question Number: 4</p> <p>Score: 3</p>
+        </div>
+
+        <form>
+            <h3>What is the difference between oil pastels and oil sticks?</h3>
+
+            <input type="radio" name="one" id="one" required>
+            <label for="one">Unlike oil sticks, oil pastels never really dry.</label><br>
+
+            <input type="radio" name="two" id="two" required>
+            <label for="two">Unlike oil pastels, oil sticks never really dry.</label><br>
+
+            <input type="radio" name="three" id="three" required>
+            <label for="three">Unlike oil sticks, oil pastels are not really made with oil.</label><br>
+
+            <input type="radio" name="four" id="four" required>
+            <label for="four">Unlike oil pastels, oil sticks are not really made with oil.</label><br>
+
+            <input type="submit" id="submit-question" value="Submit Answer" class="btn">
+        </form>
+        
+    </section>
+
+    <br>
+
+    <!-- Feedback Section HTML -->
+    <section>
+        <h3>Incorrect</h3>
+        <p>The correct answer was option four, “Hatch or crosshatch shading technique.”</p><br><br>
+        <button type="button" id="next-question" class="btn">Next Question</button>
+    </section>
+
+    <br>
+
+    <!-- Final Page HTML -->
+    <section>
+        <h3>You got 3 questions right and 2 questions wrong, completing the quiz with a score of:</h3>
+        <h4>60%</h4>
+        <p>Click the button below to take the quiz again.</p><br>
+        <button type="button" id="restart" class="btn">Restart Quiz</button>
+    </section>
+
+  </main>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.js" crossorigin="anonymous"></script>
+  <script type="module" src="quizApp.js"></script>
+</body>
+
+</html>

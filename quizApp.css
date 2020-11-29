@@ -1,0 +1,126 @@
+/* Your styles should be mobile-first and responsive */
+
+/** 
+  * If you are unclear on how to utilize a mobile-first, responsive technique to write your CSS, here is an example: 
+  *
+  * https://github.com/andreacardybailey/responsive_example/blob/master/styles/responsive-base.css 
+  *
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 10px;
+    background-color: rgb(92, 92, 92);
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 25px;
+    color: rgb(238, 238, 238);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 16px;
+    margin: 10px 0px;
+}
+
+h3 {
+    font-size: 16px;
+    margin-bottom: 3px;
+    color: rgb(58, 58, 58);
+}
+
+h4 {
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+}
+
+p, label, input {
+    font-size: 12px;
+    height: 10px;
+}
+
+.btn {
+    font-size: 12px;
+    margin: 5px 0px;
+    padding: 0px 10px;
+    height: 22px;
+    box-shadow: 1px 2px rgb(92, 92, 92);
+    border-radius: 5px;
+}
+
+section {
+    border: 2px solid black;
+    padding: 5px;
+    background-color: rgb(206, 207, 252);
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+form {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 2px;
+    background-color:  rgb(238, 238, 238);
+    border-radius: 3px;
+}
+
+.space-below {
+    margin-bottom: 3px;
+}
+
+
+
+
+@media  screen and (min-width: 600px) {
+    .side-by-side {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+    } 
+
+    h1 {
+        font-size: 40px;
+    }
+    
+    h2 {
+        font-size: 25px;
+        margin: 10px 0px;
+    }
+    
+    h3 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    
+    h4 {
+        margin: 40px;
+        font-size: 80px;
+    }
+    
+    p, label, input {
+        font-size: 20px;
+        height: 10px;
+    }
+    
+    .btn {
+        font-size: 20px;
+        margin: 5px 0px;
+        padding: 0px 15px;
+        height: 33px;
+        border-radius: 5px;
+    }
+
+    form {
+        padding: 10px;
+    }
+
+}
