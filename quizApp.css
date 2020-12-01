@@ -20,19 +20,20 @@ body {
 h1 {
     text-align: center;
     margin: 0;
-    font-size: 25px;
+    font-size: 27sspx;
     color: rgb(238, 238, 238);
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     margin-bottom: 5px;
+    margin-top: 20px;
 }
 
 h2 {
-    font-size: 16px;
+    font-size: 18px;
     margin: 10px 0px;
 }
 
 h3 {
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 3px;
     color: rgb(58, 58, 58);
 }
@@ -44,15 +45,15 @@ h4 {
 }
 
 p, label, input {
-    font-size: 12px;
-    height: 10px;
+    font-size: 14px;
+    height: 12px;
 }
 
 .btn {
-    font-size: 12px;
+    font-size: 14px;
     margin: 5px 0px;
     padding: 0px 10px;
-    height: 22px;
+    height: 24px;
     box-shadow: 1px 2px rgb(92, 92, 92);
     border-radius: 5px;
 }
@@ -62,7 +63,7 @@ section {
     padding: 5px;
     background-color: rgb(206, 207, 252);
     border-radius: 5px;
-    margin: 10px 0px;
+    margin: 40px 0px;
 }
 
 form {
@@ -74,10 +75,16 @@ form {
 }
 
 .space-below {
-    margin-bottom: 3px;
+    margin: 7px 0 10px 0;
 }
 
+.side-by-side {
+    margin-bottom: 15px;
+} 
 
+.question, #four {
+    margin-bottom: 10px;
+}
 
 
 @media  screen and (min-width: 600px) {

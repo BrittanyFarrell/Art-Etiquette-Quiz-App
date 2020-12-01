@@ -18,7 +18,7 @@ export const store = {
         correctAnswer: 'In an airtight container.'
       },
       {
-        question: 'When sketching with a pen,what is the best way to add shading to your work?',
+        question: 'When sketching with a pen, what is the best way to add shading to your work?',
         answers: [
             'Smudge the pen strokes with your finger.',
             'Shade exactly as you would with a pencil.',

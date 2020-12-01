@@ -97,7 +97,7 @@ function generateQuestion() {
         </div>
 
         <form id="question">
-            <h3>${currentQuestion.question}</h3>
+            <h3 class="question">${currentQuestion.question}</h3>
 
             <input type="radio" name="answer" id="one" required value="${currentQuestion.answers[0]}">
             <label for="one">${currentQuestion.answers[0]}</label><br>
