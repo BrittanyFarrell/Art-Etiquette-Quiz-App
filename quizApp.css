@@ -129,5 +129,9 @@ form {
     form {
         padding: 10px;
     }
+ 
+    body {
+        padding: 15% 25%;
+    }
 
 }
